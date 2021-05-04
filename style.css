@@ -1,0 +1,87 @@
+/*
+*{
+    margin:0;
+    padding:0;
+}
+*/
+body{
+    color:black;
+    background-color:lightslategray;
+    font-family: Comic Sans MS, Helvetica, sans-serif;
+    font-size: 25;
+    font-weight: lighter;
+    line-height: 1.6em;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:orangered;
+}
+a:active{
+    color:orchid;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+.box-1{
+    background-color:black;
+    color:lightslategray;
+    border-right:5px blueviolet solid;
+    border-left:5px blueviolet solid;
+    border-top:5px blueviolet solid;
+    border-bottom:5px blueviolet solid;
+    /*same as above*/
+    border: 5px blueviolet solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-right-style: groove;
+
+    /* Padding*/
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    padding-left:20px;
+    /*but it is simply done this way*/
+    padding:20px;
+    /*same thing with margin as with border and padding*/
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left:20px;
+    margin:20px;
+}
+/*target box 1 h1*/
+.box-1 h1{
+    font-family: fantasy;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: lowercase;
+    
+}
+.categories{
+    border:1px rgb(0, 0, 0) solid;
+    padding:10px;
+    border-radius: 15px;
+}
+.categories h4 {
+    text-align:center;
+}
+.categories ul{
+    padding:0px;
+    list-style: none;
+}
+.categories li{
+    padding-bottom:6px;
+    border-bottom:none 1px #333;
+   
+    
+    
+}
